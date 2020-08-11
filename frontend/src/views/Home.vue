@@ -3,7 +3,7 @@
     <header>
       <div class="overlay"></div>
       <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-        <!-- <source src="../../../../../homevid1.mp4" type="video/mp4" /> -->
+        <source src="../videos/homevid1.mp4" type="video/mp4" />
       </video>
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="collapse navbar-collapse">
@@ -42,16 +42,16 @@
           style="font-size: 2em;
          font-weight: bold;
          margin-bottom: 15px;"
-        >
-          Book unique home and experiences.
-        </h1>
+        >Book unique home and experiences.</h1>
         <div class="form-group" style=" font-size: small;">
-          <label>WHERE</label><br />
+          <label>WHERE</label>
+          <br />
           <input class="form-control" type="text" placeholder="Anywhere" name="destination" />
         </div>
         <div class="input-group-prepend" style=" font-size: small;">
           <label>CHECK IN</label> &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
-          <label>CHECK OUT</label><br />
+          <label>CHECK OUT</label>
+          <br />
         </div>
         <div class="input-group" style=" font-size: small;">
           <input class="form-control" type="date" placeholder="dd-mm-yyyy" name="checkin" />
@@ -59,13 +59,15 @@
         </div>
         <br />
         <div class="form-group" style=" font-size: small;">
-          <label>GUESTS</label><br />
+          <label>GUESTS</label>
+          <br />
           <select class="custom-select">
             <option selected>1 guest</option>
             <option value="Adults">Adults</option>
             <option value="Children">Children</option>
-            <option value="Infants">Infant</option> </select
-          ><br />
+            <option value="Infants">Infant</option>
+          </select>
+          <br />
         </div>
         <div class="form-group">
           <button type="submit" class="btn btn-primary btn-lg" style="float: right;">Search</button>
@@ -147,8 +149,8 @@ header .overlay {
 
 @media (pointer: coarse) and (hover: none) {
   header {
-    background: url("https://source.unsplash.com/XT5OInaElMw/1600x900") black no-repeat center
-      center scroll;
+    background: url("https://source.unsplash.com/XT5OInaElMw/1600x900") black
+      no-repeat center center scroll;
   }
   header video {
     display: none;
